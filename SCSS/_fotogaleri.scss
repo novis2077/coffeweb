@@ -1,0 +1,42 @@
+
+
+.heading-main-photo{
+    color:$descriptive-text; 
+    @include heading-main;
+    margin-top: em(30px);
+
+    &::after{
+        @include heading-after;
+    }
+}
+
+.subtitle-text-photo{
+    @include subtitle-text(50px 40%); 
+    
+}
+.photo-segment{
+    margin:0 5px ;
+    
+    ul{    
+        li{
+            overflow: hidden; 
+                     
+            img{
+                transform: scale(1);
+                width: 100%;
+                height: 320px;
+                transition: 0.4s linear;
+                border-radius: 20px;
+                overflow: hidden;
+            
+
+                &:hover{
+                 
+                   transform: scale(1.2);             
+                }
+            }
+        }        
+    }   
+}
+
+

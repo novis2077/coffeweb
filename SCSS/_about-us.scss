@@ -1,0 +1,47 @@
+/*about-us*/
+.about-tittle{
+    color: $text-color;
+    text-align: center;
+    font-size: em(25px);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 25px;
+
+    &::after{
+        content: "";
+        display: block;
+        margin: 5px auto;
+        width: 300px;
+        border-bottom: 2px solid rgb(187, 100, 29);
+    }
+}
+
+.about-image img{
+    width:95%;
+    height: 430px;
+    margin: 0 10px;
+    @include border-radius;
+    box-shadow: $box-shadow;
+}
+.about-text{
+    margin: 15px 5px 65px 0;
+
+    p{
+        color: $text-color;
+        padding-top:10px ;
+        font-size: em(25px);
+        margin-left: 60px;
+    }
+
+    div{
+        @include numbered-div;
+    }
+}
+ 
+
+.how-started p{
+    color: $text-color;
+    padding: em(20px);
+    font-size: em(21px);
+    
+}
+/*about-us end*/

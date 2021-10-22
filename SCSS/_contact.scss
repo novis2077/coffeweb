@@ -1,0 +1,172 @@
+/*Contact-me*/
+.Contact-me{
+    position: relative;
+    padding-top: 20vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), 
+    url("../images/coffee-171653_1920.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+    .contact-tittle{
+        position: relative;
+        color: white;
+        font-size: em(54px);
+        margin-bottom: 50px;
+        margin-top: 30px;
+       
+    }
+
+    .contact__list{
+        color: #fff;
+        font-size: em(20px);
+        margin: 10px;
+
+        .contact-item{
+            display: flex;
+
+            i{
+                display:inline-block;
+                color: #ffffff;
+                font-size:em(20px) ;
+                width:em(40px) ;
+                height:em(40px) ;
+                line-height:em(42px);
+                margin:em(10px)  em(15px) ;
+            }
+        }
+
+        .text-secondary{
+            display: flex;
+            padding: em(20px);
+        
+            p{
+                font-size:em(25px);
+                color: #fff;
+                padding: 0 em(20px);
+            }
+        }
+    }
+
+ 
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+    font-size: em(20px);
+    width: 100px;
+
+    a {
+        color: #fff;
+        margin: em(5px);  
+    }
+
+    a:hover{
+        color: chocolate;
+        transition: color 0.5s; 
+    }
+}
+
+/*arrow*/
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: em(5px);
+    transform:rotate(145deg) translate(3px, 18px);
+    animation: animate 2s linear 1s 5 alternate;
+
+    img{
+        width: 100px;
+        transform: rotate(213deg);
+    }
+}
+ 
+@keyframes animate{
+    0%{margin:0;}
+    50%{margin-top: em(50px);}
+    100%{margin-bottom: em(50px);}
+}
+/*arrow end*/
+}
+
+
+/*form*/
+
+.tittle-form{
+    text-align: center;
+    color: #fff;
+    font-size: em(35px);
+}
+.Contact-form{ 
+    .contact-form{ 
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        border: 2px solid rgb(248, 100, 2);
+        @include border-radius(40px);
+        background: linear-gradient(rgb(255, 94, 0),blue);
+        margin-bottom: 50px;
+        box-shadow:$contact-shadow;
+    
+        input{
+            text-align: center;
+            width: 50%;
+            border: 2px solid rgb(236, 65, 12);
+            @include border-radius(20px);
+            margin: em(20px)  0;
+            padding: em(8px);
+            outline: none;
+            font-size: em(15px);
+    
+            &:focus{
+                width: 70%;
+                border: 2px solid $border_color;
+                box-shadow:0  1px 5px  gray;
+                transition: width 0.5s;
+            }
+        }
+    
+        input[type="submit"]{
+            width: 50%;
+            cursor: pointer;
+            font-size: em(18px);
+            border: 0;
+    
+            &:focus{
+                width: 50%;
+            }
+    
+            &:hover{
+                background-color: orangered;
+                color: white;
+                transition: background-color 0.5s,color 0.3s;
+                
+            }
+        }
+      
+        textarea{
+            width: 50%;
+            padding: 5px;
+            margin: 15px 0;
+            @include border-radius(20px);
+            outline: none;
+        
+            &:focus{
+                width: 80%;
+                border: 2px solid  $border_color;
+                box-shadow:2px 2px 3px 2px  gray;
+                transition: width 0.5s;
+            }
+        }
+    }
+    
+    
+}
+

@@ -1,0 +1,32 @@
+ 
+.body-price{
+    background-image: url("/images/price-back.png");
+}  
+
+.card-deck{ 
+    width: 100%;
+    position: absolute;
+    left: 51.5% ;   
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+ 
+  .card{ 
+      width: 100%;
+      border-radius: 15px; 
+      padding: 50px;
+      background-image: linear-gradient(rgb(75, 64, 46),rgb(129, 100, 51));
+      margin: 0 10px;
+                   
+      table{
+          font-size: 25px;
+          color: rgb(255, 255, 255);
+          
+          thead{
+              font-style: italic;
+          }
+        } 
+    }
+}
+    
+

@@ -1,0 +1,65 @@
+
+@import "variables";
+@import "navigation";
+@import "home";
+@import "fotogaleri";
+@import "price-list";
+@import "about-us";
+@import "contact";
+@import "queris";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $body-color-background;
+    overflow-x: hidden; 
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+/*reusable*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.heading-main{
+    @include heading-main;
+
+    &::after{
+        @include heading-after;
+    }
+    
+}
+
+
+
+
+.empty-space{
+    width: 100%;
+    height: 50px;
+}
+
+/*reusable end*/
+
+/*stop floating*/
+.clearfix{zoom : 1}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+

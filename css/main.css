@@ -1,0 +1,857 @@
+/*==STYLY h2 end ==*/
+/*footer*/
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: grey;
+  line-height: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+nav ul {
+  z-index: 100;
+  float: right;
+  position: fixed;
+  margin-left: 45%;
+}
+
+nav ul .open {
+  display: block;
+  z-index: 100;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0.9375em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25em;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover, nav ul li a:active {
+  border-bottom: 2px solid #fff;
+  -webkit-transition: border-bottom 0.5s;
+  transition: border-bottom 0.5s;
+}
+
+nav .open {
+  display: block;
+  z-index: 100;
+}
+
+.background {
+  opacity: 0.9;
+  z-index: 50;
+  position: fixed;
+  background-color: #4b4845;
+  width: 100%;
+  height: 50px;
+}
+
+#logo img {
+  z-index: 60;
+  position: fixed;
+  width: 110px;
+  height: 50px;
+}
+
+.hamburger-menu {
+  float: right;
+  margin: 1.5em 1.875em;
+  display: none;
+}
+
+.mobile-nav-back {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(39, 37, 36, 0.97);
+  border-bottom: 2px solid orangered;
+  display: none;
+}
+
+.mobile-nav-back.open {
+  display: block;
+  z-index: 50;
+}
+
+/*New-foood-drinds*/
+.home-page {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("../images/coffee-171653_1920.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../images/coffee-171653_1920.jpg");
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.responsiveheader {
+  position: relative;
+  top: 31%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.responsiveheader h1 {
+  color: #fff;
+  font-size: 35px;
+  display: none;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.header-text .btn {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  font-size: 1.375em;
+  background-color: #4b4845;
+  border-radius: 3.125em;
+}
+
+.header-text .facebook-button {
+  color: #fff;
+  border-radius: 30px;
+  padding: 0.75em 1.25em;
+}
+
+.header-text .facebook-button:hover {
+  background-color: #1212b1;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.header-text .instagram-button {
+  color: #fff;
+  border-radius: 30px;
+  padding: 0.75em 1.25em;
+}
+
+.header-text .instagram-button:hover {
+  background-color: #c3465b;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.subtitle-text {
+  color: black;
+  text-align: center;
+  margin: 50px 45%;
+  font-size: 25px;
+  border-left: 2px solid #ff7300;
+  border-right: 2px solid #ff7300;
+}
+
+.new-Coffeplace {
+  color: black;
+  text-align: center;
+  margin: 2.5em 43%;
+  font-size: 1.75em;
+  border-left: 2px solid #ff7300;
+  border-right: 2px solid #ff7300;
+}
+
+.new-images img {
+  width: 95%;
+  height: 350px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.new-text {
+  margin: 15px 22px 35px 0;
+}
+
+.new-text p {
+  padding-top: 0.3125em;
+  font-size: 1.5625em;
+  margin-left: 3.125em;
+  color: black;
+}
+
+.new-text div {
+  color: black;
+  width: 50px;
+  height: 50px;
+  padding: 0.875em;
+  border: 2px solid #722f2f;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+
+/*New-foood-drinds end*/
+.heading-main-photo {
+  color: black;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-top: 1.875em;
+}
+
+.heading-main-photo::after {
+  content: "";
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+  border-bottom: 3px solid #ff7300;
+}
+
+.subtitle-text-photo {
+  color: black;
+  text-align: center;
+  margin: 50px 40%;
+  font-size: 25px;
+  border-left: 2px solid #ff7300;
+  border-right: 2px solid #ff7300;
+}
+
+.photo-segment {
+  margin: 0 5px;
+}
+
+.photo-segment ul li {
+  overflow: hidden;
+}
+
+.photo-segment ul li img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 100%;
+  height: 320px;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.photo-segment ul li img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.body-price {
+  background-image: url("/images/price-back.png");
+}
+
+.card-deck {
+  width: 100%;
+  position: absolute;
+  left: 51.5%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card-deck .card {
+  width: 100%;
+  border-radius: 15px;
+  padding: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4b402e), to(#816433));
+  background-image: linear-gradient(#4b402e, #816433);
+  margin: 0 10px;
+}
+
+.card-deck .card table {
+  font-size: 25px;
+  color: white;
+}
+
+.card-deck .card table thead {
+  font-style: italic;
+}
+
+/*about-us*/
+.about-tittle {
+  color: black;
+  text-align: center;
+  font-size: 1.5625em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 25px;
+}
+
+.about-tittle::after {
+  content: "";
+  display: block;
+  margin: 5px auto;
+  width: 300px;
+  border-bottom: 2px solid #bb641d;
+}
+
+.about-image img {
+  width: 95%;
+  height: 430px;
+  margin: 0 10px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+}
+
+.about-text {
+  margin: 15px 5px 65px 0;
+}
+
+.about-text p {
+  color: black;
+  padding-top: 10px;
+  font-size: 1.5625em;
+  margin-left: 60px;
+}
+
+.about-text div {
+  color: black;
+  width: 50px;
+  height: 50px;
+  padding: 0.875em;
+  border: 2px solid #722f2f;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+
+.how-started p {
+  color: black;
+  padding: 1.25em;
+  font-size: 1.3125em;
+}
+
+/*about-us end*/
+/*Contact-me*/
+.Contact-me {
+  position: relative;
+  padding-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("../images/coffee-171653_1920.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../images/coffee-171653_1920.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*arrow*/
+  /*arrow end*/
+}
+
+.Contact-me .contact-tittle {
+  position: relative;
+  color: white;
+  font-size: 3.375em;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.Contact-me .contact__list {
+  color: #fff;
+  font-size: 1.25em;
+  margin: 10px;
+}
+
+.Contact-me .contact__list .contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Contact-me .contact__list .contact-item i {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.25em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.625em;
+  margin: 0.625em 0.9375em;
+}
+
+.Contact-me .contact__list .text-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.25em;
+}
+
+.Contact-me .contact__list .text-secondary p {
+  font-size: 1.5625em;
+  color: #fff;
+  padding: 0 1.25em;
+}
+
+.Contact-me .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  font-size: 1.25em;
+  width: 100px;
+}
+
+.Contact-me .social-icons a {
+  color: #fff;
+  margin: 0.3125em;
+}
+
+.Contact-me .social-icons a:hover {
+  color: chocolate;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.Contact-me .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 0.3125em;
+  -webkit-transform: rotate(145deg) translate(3px, 18px);
+          transform: rotate(145deg) translate(3px, 18px);
+  -webkit-animation: animate 2s linear 1s 5 alternate;
+          animation: animate 2s linear 1s 5 alternate;
+}
+
+.Contact-me .arrow img {
+  width: 100px;
+  -webkit-transform: rotate(213deg);
+          transform: rotate(213deg);
+}
+
+@-webkit-keyframes animate {
+  0% {
+    margin: 0;
+  }
+  50% {
+    margin-top: 3.125em;
+  }
+  100% {
+    margin-bottom: 3.125em;
+  }
+}
+
+@keyframes animate {
+  0% {
+    margin: 0;
+  }
+  50% {
+    margin-top: 3.125em;
+  }
+  100% {
+    margin-bottom: 3.125em;
+  }
+}
+
+/*form*/
+.tittle-form {
+  text-align: center;
+  color: #fff;
+  font-size: 2.1875em;
+}
+
+.Contact-form .contact-form {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #f86402;
+  border-radius: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff5e00), to(blue));
+  background: linear-gradient(#ff5e00, blue);
+  margin-bottom: 50px;
+  -webkit-box-shadow: 4px 4px 15px 10px grey;
+          box-shadow: 4px 4px 15px 10px grey;
+}
+
+.Contact-form .contact-form input {
+  text-align: center;
+  width: 50%;
+  border: 2px solid #ec410c;
+  border-radius: 20px;
+  margin: 1.25em 0;
+  padding: 0.5em;
+  outline: none;
+  font-size: 0.9375em;
+}
+
+.Contact-form .contact-form input:focus {
+  width: 70%;
+  border: 2px solid #ff7300;
+  -webkit-box-shadow: 0  1px 5px  gray;
+          box-shadow: 0  1px 5px  gray;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.Contact-form .contact-form input[type="submit"] {
+  width: 50%;
+  cursor: pointer;
+  font-size: 1.125em;
+  border: 0;
+}
+
+.Contact-form .contact-form input[type="submit"]:focus {
+  width: 50%;
+}
+
+.Contact-form .contact-form input[type="submit"]:hover {
+  background-color: orangered;
+  color: white;
+  -webkit-transition: background-color 0.5s,color 0.3s;
+  transition: background-color 0.5s,color 0.3s;
+}
+
+.Contact-form .contact-form textarea {
+  width: 50%;
+  padding: 5px;
+  margin: 15px 0;
+  border-radius: 20px;
+  outline: none;
+}
+
+.Contact-form .contact-form textarea:focus {
+  width: 80%;
+  border: 2px solid #ff7300;
+  -webkit-box-shadow: 2px 2px 3px 2px  gray;
+          box-shadow: 2px 2px 3px 2px  gray;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+@media screen and (max-width: 1390px) {
+  #logo {
+    display: none;
+  }
+  .background {
+    display: none;
+  }
+  nav ul {
+    display: none;
+    margin-left: 20px;
+  }
+  nav li {
+    display: block;
+  }
+  .hamburger-menu {
+    position: fixed;
+    display: inline-block;
+    z-index: 200;
+    right: 2%;
+    top: -15px;
+  }
+  .hamburger-menu .mobile-hamburger {
+    display: block;
+  }
+  .hamburger-menu .mobile-hamburger.open {
+    display: none;
+  }
+  .hamburger-menu .mobile-cross {
+    display: none;
+  }
+  .hamburger-menu .mobile-cross.open {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .Contact-me {
+    padding-top: 5vh;
+  }
+  .Contact-me .contact-tittle {
+    font-size: 3em;
+  }
+  .Contact-me .contact__list {
+    font-size: 1.375em;
+  }
+  .Contact-me .contact__list .contact-item i {
+    font-size: 1.375em;
+    line-height: 1.875em;
+  }
+  .Contact-me .contact__list .text-secondary p {
+    font-size: 1.375em;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .new-Coffeplace, .subtitle-text-photo, .subtitle-text {
+    color: brown;
+    border: 0;
+    margin: 50px 0;
+  }
+  .new-Coffeplace::after, .subtitle-text-photo::after, .subtitle-text::after {
+    content: "";
+    width: 150px;
+    display: block;
+    border-bottom: 2px solid #554512;
+    margin: 10px auto;
+  }
+  .Contact-me {
+    padding-top: 28vh;
+  }
+  .Contact-me .contact-tittle {
+    font-size: 3.75em;
+    margin-bottom: 10px;
+  }
+  .Contact-me .contact__list {
+    font-size: 1.75em;
+  }
+  .Contact-me .contact__list .contact-item i {
+    font-size: 1.1875em;
+    line-height: 1.875em;
+  }
+  .Contact-me .contact__list .text-secondary p {
+    font-size: 1.375em;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .card-deck {
+    outline: none;
+  }
+  .card-deck .card {
+    width: 93%;
+  }
+  .card-deck .card table {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .new-information .span-1-of-2, .about-us .span-1-of-2 {
+    width: 99.5%;
+    margin: 0 2px;
+  }
+  .new-information .new-text, .new-information .about-text, .about-us .new-text, .about-us .about-text {
+    margin-left: 13px;
+  }
+  .photo-segment ul li img {
+    width: 100%;
+    height: 200px;
+  }
+  .photo-segment ul li img:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .about-us img {
+    height: 320px;
+  }
+  .Contact-me .social-icons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    left: 2%;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header-text h1 {
+    font-size: 35px;
+  }
+  .header-text .btn {
+    font-size: 19px;
+  }
+  .Contact-me {
+    padding-top: 20vh;
+  }
+  .Contact-me .contact-tittle {
+    font-size: 3.125em;
+  }
+  .Contact-me .contact__list .contact-item i {
+    font-size: 1.375em;
+    line-height: 1.875em;
+  }
+  .Contact-me .contact__list .text-secondary p {
+    font-size: 1.375em;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .responsiveheader h1 {
+    display: block;
+  }
+  .header-text h1 {
+    display: none;
+  }
+  .header-text .btn {
+    font-size: 22px;
+    width: 100%;
+  }
+  .Contact-me .contact-tittle {
+    font-size: 2.1875em;
+    margin: 10px;
+  }
+  .Contact-me .contact-item {
+    font-size: 0.75em;
+  }
+  .Contact-me .social-icons {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .responsiveheader h1 {
+    font-size: 28px;
+  }
+  .new-images img, .about-image img {
+    height: 230px;
+  }
+  .new-text p, .about-text p {
+    padding-top: 0.625em;
+    font-size: 18px;
+  }
+  .card-deck {
+    margin-top: 50%;
+  }
+  .card-deck .card {
+    overflow-x: scroll;
+  }
+  .Contact-me {
+    padding-top: 25vh;
+  }
+  .Contact-me .contact-tittle {
+    font-size: 1.875em;
+    margin: 10px;
+  }
+  .Contact-me .contact-item {
+    font-size: 14px;
+  }
+  .Contact-me .arrow img {
+    width: 50px;
+  }
+  footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Contact-me {
+    padding-top: 25vh;
+  }
+  .Contact-me .contact-tittle {
+    font-size: 1.25em;
+    margin: 10px;
+  }
+  .Contact-me .contact-item {
+    font-size: 11px;
+  }
+  .Contact-me .arrow img {
+    width: 50px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*reusable*/
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.heading-main {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.heading-main::after {
+  content: "";
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+  border-bottom: 3px solid #ff7300;
+}
+
+.empty-space {
+  width: 100%;
+  height: 50px;
+}
+
+/*reusable end*/
+/*stop floating*/
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
